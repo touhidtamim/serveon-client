@@ -3,9 +3,9 @@ import { Outlet } from "react-router";
 
 const MainLayouts = () => {
   return (
-    <div>
-      <Outlet></Outlet>
-    </div>
+    <>
+      <Outlet />
+    </>
   );
 };
 
