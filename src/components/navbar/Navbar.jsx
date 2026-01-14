@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../logo/Logo";
 import BtnPrimary from "../buttons/BtnPrimary";
+import BtnOutline from "../buttons/btnOutline";
 
 const Navbar = () => {
   return (
@@ -44,9 +45,7 @@ const Navbar = () => {
 
           {/* Right: CTA Buttons (static for now) */}
           <div className="flex items-center gap-3">
-            <button className="px-4 py-2 text-sm font-medium text-gray-700 border border-gray-300 rounded-md hover:bg-gray-100 transition">
-              Login
-            </button>
+            <BtnOutline text="Login" to="/login" />
             <BtnPrimary text="Get Started" to="/register" />
           </div>
         </div>
