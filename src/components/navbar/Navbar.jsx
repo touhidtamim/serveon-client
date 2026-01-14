@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../logo/Logo";
+import BtnPrimary from "../buttons/BtnPrimary";
 
 const Navbar = () => {
   return (
@@ -46,9 +47,7 @@ const Navbar = () => {
             <button className="px-4 py-2 text-sm font-medium text-gray-700 border border-gray-300 rounded-md hover:bg-gray-100 transition">
               Login
             </button>
-            <button className="px-4 py-2 text-sm font-medium text-white bg-gray-900 rounded-md hover:bg-gray-800 transition">
-              Get Started
-            </button>
+            <BtnPrimary text="Get Started" to="/register" />
           </div>
         </div>
       </div>
